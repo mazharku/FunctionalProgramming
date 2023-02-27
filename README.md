@@ -1,5 +1,5 @@
->in the project i will try to relate mathematical function to functional programming. i will also cover some known principal about functional programming.
-> For this project i will choose JVM based language, primarily Java and Kotlin. But later i will add Scala
+>In this project, I will try to relate mathematical functions to functional programming. I will cover some known principles of functional programming.
+>For this project, I  choose JVM-based language, primarily Java and Kotlin.
 ****
 # Functional Programming 
 ***
