@@ -16,7 +16,7 @@ specific language by searching for the package name
   of the function and `x` is input.
   * Function must work for every possible input value.
   * Each input value can only have one output value.
-  * Each input value must correspond to exactly one output value, but multiple input values can correspond to the same output value.
+  * Multiple input values can correspond to the same output value.
 ```
 ---
 # Functional Programming 
