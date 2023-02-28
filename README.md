@@ -2,7 +2,7 @@
 ****
 # Functional Programming 
 ***
-### Pillar of Functional Programming
+### Concept of Functional Programming
 1. Immutability  
 2. Pure Function  
 3. Higher OrderFunction
