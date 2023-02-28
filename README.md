@@ -4,6 +4,21 @@
 All code examples can be found in the 
 specific language by searching for the package name 
 ```
+# What is Function?
+```
+ In short - A function relates an input to an output!
+ Basically a function has three components
+  1. Input
+  2. Relationship
+  3. Output
+  
+  A function may have name like f(x) = x^2. here `f` is the name 
+  of the function and `x` is input.
+  * Function must work for every possible input value.
+  * Each input value can only have one output value.
+  * Each input value must correspond to exactly one output value, but multiple input values can correspond to the same output value.
+```
+---
 # Functional Programming 
 > Functional programming focuses on specifying what should be done, rather than how to do it.
 ***
