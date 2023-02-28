@@ -1,5 +1,9 @@
 >In this project, I will attempt to establish a relationship between mathematical functions and functional programming, covering some of the well-known principles of functional programming. To accomplish this, I have chosen a JVM-based language, primarily Java and Kotlin
 ****
+```
+All code examples can be found in the 
+specific language by searching for the package name 
+```
 # Functional Programming 
 > Functional programming focuses on specifying what should be done, rather than how to do it.
 ***
@@ -26,3 +30,4 @@
 ## #Functional Composition
 
 ## #First Class Function
+
