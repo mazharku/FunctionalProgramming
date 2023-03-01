@@ -33,6 +33,20 @@ specific language by searching for the package name
 ***
 
 ## #Immutability
+If you can't change it, then it's immutable. but there is subtle difference between immutable and constant. 
+
+####In Java, any variable marked as final is immutable. The final value can be initialized either when the variable is created or through the constructor
+
+``
+private final int x =10;
+``
+
+####But Kotlin makes it smarter. Kotlin differentiates between immutable and mutable values using two separate keywords: 'val' and 'var'. 'val' stands for a value that is immutable, while 'var' stands for a value that is mutable.
+
+``
+private val x:Int =10;
+private lateinit var x:Int =10
+``
 
 ## #Pure Function
 
