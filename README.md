@@ -41,7 +41,7 @@ If you can't change it, then it's immutable. but there is subtle difference betw
 private final int x =10;
 ``
 
-####But Kotlin makes it smarter. Kotlin differentiates between immutable and mutable values using two separate keywords: 'val' and 'var'. 'val' stands for a value that is immutable, while 'var' stands for a value that is mutable.
+But Kotlin makes it smarter. Kotlin differentiates between immutable and mutable values using two separate keywords: 'val' and 'var'. 'val' stands for a value that is immutable, while 'var' stands for a value that is mutable.
 
 ``
 private val x:Int =10;
@@ -49,6 +49,13 @@ private lateinit var x:Int =10
 ``
 
 ## #Pure Function
+A pure function is a function that always returns the same output given the same input, and has no side effects. In other words, its return value depends solely on its input value, it does not modify any other resources or state outside the function, and it does not modify its input. Pure functions are deterministic and have no hidden dependencies or side effects, making them easier to reason about, test, and compose.
+
+Some characteristics of pure functions include the following:
+
+1. Pure functions are idempotent, meaning that calling them multiple times with the same input produces the same result as calling them once.
+2. Pure functions are thread-safe and can be safely executed in parallel, without any risk of data races or synchronization issues.
+3. Pure functions are easier to optimize, since their behavior is predictable and can be memoized or cached.
 
 ## #Higher-order Function
 
