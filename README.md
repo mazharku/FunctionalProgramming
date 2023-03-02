@@ -58,6 +58,11 @@ Some characteristics of pure functions include the following:
 3. Pure functions are easier to optimize, since their behavior is predictable and can be memoized or cached.
 
 ## #Higher-order Function
+A function that takes one or more functions as arguments, or returns a function as its result.
+Basically, It's a function that operates on functions.
+higher order function more related to category mathematics than mathematical function
+
+before java 8, java doesn't support functional style code. 
 
 ## #Referential Transparency
 
